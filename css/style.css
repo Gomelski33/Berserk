@@ -267,3 +267,37 @@ body{
 .berserk__content{
 	overflow: hidden;
 }
+/*****tavebi*********/
+.main__sia{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main__item{
+	padding: 10px 20px;
+	background-color: #303030;
+	margin-bottom: 10px;
+	width: 1000px;
+}
+.main__item span{
+	padding: 10px 5px;
+	background-color: #141414;
+	margin-right: 10px;
+}
+.manga__inner{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+
+}
+.tavi__link{
+	display: flex;
+	justify-content: center;
+}
+.tavi__link a {
+	padding: 20px 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #2b2a2a;
+}
