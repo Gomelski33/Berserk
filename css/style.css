@@ -141,6 +141,9 @@ body{
 .header__item:not(:last-child){
 	margin-right: 50px;
 }
+.berserk{
+	margin-bottom: 40px;
+}
 .berserk__inner{
 	display: flex;
 }
@@ -186,6 +189,9 @@ body{
 	transition: opacity 1s;
 	opacity: 0.5;
 }
+.berserk__tegs{
+	margin-bottom: 100px;
+}
 .berserk__tegs a{
 	padding: 10px 5px;
 	border: 2px solid rgb(255, 255, 255, 0.2);
@@ -194,4 +200,67 @@ body{
 .berserk__tegs a:hover{
 	transition: border 1s;
 	border: 2px solid rgba(255, 255, 255, 0.315);
+}
+.card__img{
+	width: 250px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15px;
+}
+.img1{
+	background-image: url("../img/person/guts.jpg");
+}
+.img2{
+	background-image: url("../img/person/grifit.png");
+	
+}
+.img3{
+	background-image: url("../img/person/casca.jpg");
+
+}
+.img4{
+	background-image: url("../img/person/skull.png");
+}
+.img5{
+	background-image: url("../img/person/Puck.jpg");
+}
+.img6{
+	background-image: url("../img/person/Isidro.jpg");
+}
+.img7{
+	background-image: url("../img/person/Farnese.jpg");
+}
+.img8{
+	background-image: url("../img/person/Serpico.jpg");
+}
+.img9{
+	background-image: url("../img/person/Schierke.jpg");
+}
+.img10{
+	background-image: url("../img/person/Zodd.jpg");
+}
+/*я заебался*/
+.card__title{
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+.card__text{
+	max-width: 250px;
+}
+.berserk__swiper{
+	width: 897px;
+}
+.card__title{
+	width: 250px;
+}
+.berserk__wrapper{
+	height: 550px;
+}
+.berserk__slider{
+	width: 250px;
+}
+.berserk__h2{
+	font-size: 40px;
+	margin-bottom: 50px;
 }
