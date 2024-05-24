@@ -170,6 +170,21 @@ body{
 	line-height: 50px;
 	margin-bottom: 30px;
 }
+.berserk__startread{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.berserk__startread-link:hover{
+	background-color: #106b59;
+	transition: background-color 0.4s ;
+}
+.berserk__startread-link{
+	padding: 20px 30px;
+	background-color: #0f6151;
+	border-radius: 2rem;
+}
 .berserk__title p:nth-child(2){
 	opacity: 0.6;
 }
@@ -266,6 +281,10 @@ body{
 }
 .berserk__content{
 	overflow: hidden;
+}
+.main__item:hover{
+	background-color: #202020;
+	transition: background-color 0.5s;
 }
 /*****tavebi*********/
 .main__sia{
